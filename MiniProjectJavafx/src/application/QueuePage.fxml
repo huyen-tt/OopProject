@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerQueue">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+         	 <ImageView fitHeight="400.0" fitWidth="600.0">
+               <image>
+                  <Image url="@images.jpg" />
+               </image>
+            </ImageView>
+            
+            <TextField fx:id="input" layoutX="345.0" layoutY="55.0" style="-fx-background-color: pink;" />
+            <Button fx:id="enQueue" layoutX="345.0" layoutY="131.0" mnemonicParsing="false" onAction="#enQueue" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: pink;" text="EnQueue" textFill="#391bcd" />
+            <Button fx:id="deQueue" layoutX="345.0" layoutY="181.0" mnemonicParsing="false" onAction="#deQueue" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: pink;" text="DeQueue" textFill="#360fb9" />
+            <Button fx:id="back" layoutX="345.0" layoutY="294.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: pink;" text="Back" textFill="#5232d3" />
+            <Button fx:id="no1" layoutX="86.0" layoutY="43.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no2" layoutX="86.0" layoutY="68.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no3" layoutX="86.0" layoutY="93.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no4" layoutX="86.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no5" layoutX="86.0" layoutY="143.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no6" layoutX="86.0" layoutY="168.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no7" layoutX="86.0" layoutY="193.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no8" layoutX="86.0" layoutY="218.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no9" layoutX="86.0" layoutY="243.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no10" layoutX="86.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no11" layoutX="86.0" layoutY="293.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            <Button fx:id="no12" layoutX="86.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" textFill="#141414" />
+            
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
