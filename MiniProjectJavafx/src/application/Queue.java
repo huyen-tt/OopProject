@@ -31,22 +31,18 @@ public class Queue {
     public void deQueue() {
 		if(isEmpty())
     		JOptionPane.showMessageDialog(null,"Queue is EMPTY!");
-		int i,j;
-		for(i=1; i<=queue.size(); i++) {
-			if(queue.get(1) != "")
-				queue.removeFirst();
-			else {
-				for(j=2; j<= queue.size(); j++) {
-					if(queue.get(j) != "")
-						queue.remove(j);
-					else  
-						j++;
-				}
-			}
-			queue.addFirst("");
+		int i;
+		int dem=1;
+		for(i=0; i< queue.size(); i++) {
+			if(queue.get(i) == "")
+			dem++;
 		}
-        
+		queue.remove(dem);
+		queue.addFirst("");
     }
+		
+		
+		
     
    /* public String peek() {
     	if (isEmpty()) 

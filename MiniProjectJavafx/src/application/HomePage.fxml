@@ -9,26 +9,26 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="pane" prefHeight="300.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerHomePage">
+<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerHomePage">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="900.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="166.0" layoutY="235.0" mnemonicParsing="false" onAction="#queue" prefHeight="37.0" prefWidth="83.0" style="-fx-background-color: lightblue;" text="Queue">
+      <Button layoutX="158.0" layoutY="488.0" mnemonicParsing="false" onAction="#queue" prefHeight="67.0" prefWidth="185.0" style="-fx-background-color: lightblue; -fx-border-color: blue;" text="Queue">
          <font>
-            <Font size="16.0" />
+            <Font size="30.0" />
          </font>
       </Button>
-      <Button layoutX="372.0" layoutY="235.0" mnemonicParsing="false" onAction="#arraylist" style="-fx-background-color: pink;" text="ArrayList">
+      <Button layoutX="497.0" layoutY="488.0" mnemonicParsing="false" onAction="#arraylist" prefHeight="67.0" prefWidth="185.0" style="-fx-background-color: violet; -fx-border-color: darkviolet;" text="ArrayList">
          <font>
-            <Font size="16.0" />
+            <Font size="30.0" />
          </font>
       </Button>
-      <Label layoutX="120.0" layoutY="94.0" text="Vizualiar Application">
+      <Label layoutX="336.0" layoutY="202.0" text="Visualization Application">
          <font>
-            <Font size="40.0" />
+            <Font size="54.0" />
          </font>
          <textFill>
             <LinearGradient endX="0.6476190476190476">
@@ -40,5 +40,9 @@
             </LinearGradient>
          </textFill>
       </Label>
+      <Button layoutX="829.0" layoutY="488.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="185.0" style="-fx-background-color: pink; -fx-border-color: red;" text="HashTable">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
    </children>
 </AnchorPane>

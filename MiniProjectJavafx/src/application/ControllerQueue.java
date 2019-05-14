@@ -27,7 +27,7 @@ public class ControllerQueue implements Initializable{
 		private Button no1,no2,no3,no4,no5,no6,no7,no8,no9,no10,no11,no12;
 	Queue q = new Queue();
 	public void setText(Integer num,String str) {
-		final int WIDTH = 149;
+		final int WIDTH = 184;
 		if(num==1) {
 			no1.setText(str);
 			no1.setMaxWidth(WIDTH);
@@ -83,7 +83,7 @@ public class ControllerQueue implements Initializable{
 	}	
 	
 	public void clearText(Integer num) {
-		final int WIDTH = 149;
+		final int WIDTH = 184;
 		if(num==1) {
 			no1.setText("");
 			no1.setMaxWidth(WIDTH);
@@ -147,12 +147,13 @@ public class ControllerQueue implements Initializable{
 	
 	public void deQueue(ActionEvent event) {
 		q.deQueue();
-		int i;
-		for(i=1; i<=q.size(); i++)
-			if(q.queue.get(i) != "")
-				clearText(i-1);
-			else
-				i++;
+		int i, dem=0;
+		for(i=0; i<q.size(); i++) {
+			if(q.queue.get(i) == "" ) {
+				dem++;
+			}
+		}
+		clearText(dem);
 	}
 	
 	public void back() throws IOException {
