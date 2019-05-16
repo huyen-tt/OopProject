@@ -40,7 +40,7 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <Button layoutX="829.0" layoutY="488.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="185.0" style="-fx-background-color: pink; -fx-border-color: red;" text="HashTable">
+      <Button fx:id="hashtable" layoutX="829.0" layoutY="488.0" mnemonicParsing="false" onAction="#hashtable" prefHeight="67.0" prefWidth="185.0" style="-fx-background-color: pink; -fx-border-color: red;" text="HashTable">
          <font>
             <Font size="30.0" />
          </font></Button>

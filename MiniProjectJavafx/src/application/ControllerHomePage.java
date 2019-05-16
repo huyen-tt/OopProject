@@ -19,10 +19,10 @@ public class ControllerHomePage implements Initializable {
 		pane.getChildren().setAll(child);
 	}
 	
-	/*public void hashtable() throws IOException {
-		AnchorPane child = FXMLLoader.load(getClass().getResource("HashFunction.fxml"));
+	public void hashtable() throws IOException {
+		AnchorPane child = FXMLLoader.load(getClass().getResource("HashTablePage.fxml"));
 		pane.getChildren().setAll(child);
-	}*/
+	}
 	
 	public void arraylist() throws IOException {
 		AnchorPane child = FXMLLoader.load(getClass().getResource("ArrayListPage.fxml"));
